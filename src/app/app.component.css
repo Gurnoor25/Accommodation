@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.outer-container{
+  display: flex;
+  border: solid;
+  width: 919px;
+  margin:8% auto;
+  
+}
+.blue-container{
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+
+width: 50%;
+height: 552px;
+
+/* Primary/Blue */
+
+background: #002C3F;
+border-radius: 8px 0px 0px 8px;
+
+}
+.white-container{
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+width: 50%;
+height: 552px;
+background: #FFFFFF;
+
+}
+.logo-heading{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Primary/Gray */
+
+color: #343435;
+
+
+
+}
+
+.cg-logo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: auto;
+text-align: center;
+margin: 92px auto;
+}
+.blue-inner-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 371px;
+
+}
+.blue-inner-container:first-child{
+    /* border: 2px solid green; */
+
+}
+.blue-inner-container>div>img{
+    width: 326px;
+    /* border: 2px solid green; */
+}
+.blue-text{
+    text-align: center;
+    width: 281px;
+    width: 100%;
+    /* border: 2px solid green; */
+    font-family: 'Lato';
+    font-style: normal;
+
+    
+/* identical to box height */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.blue-text :nth-child(1){
+    /* border: 2px solid green; */
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em; 
+}
+
+.blue-text :nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    /* border: 2px solid green; */
+    letter-spacing: 0.07em; 
+    
+    
+}
